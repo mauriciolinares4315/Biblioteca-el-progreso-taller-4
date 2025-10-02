@@ -7,7 +7,7 @@ let usuarios = [
 ]
 
 // Agregar usuarios
-function agregar_usuarios (nombre,correo) {
+ export function agregar_usuarios (nombre,correo) {
 let nuevo_usuario = {
     nombre : nombre,
     correo : correo
