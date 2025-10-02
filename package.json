@@ -1,0 +1,20 @@
+{
+  "name": "taller_4",
+  "version": "1.0.0",
+  "description": "**Qué hace el programa???**\r La Biblioteca del barrio El Progreso quiere un pequeño programa que funcione solo por consola para registrar y consultar información de usuarios, libros y préstamos. El programa será básico, pero debe estar bien organizado y permitir lo siguiente:\r Registrar usuarios con:\r Nombre\r Correo electrónico\r Registrar libros con:\r Título\r Autor\r Estado (disponible o prestado)\r Prestar un libro:\r Solo si está disponible.\r Cambiar el estado a prestado.\r Devolver un libro:\r Cambiar el estado a disponible.\r Listar:\r Todos los libros.\r Solo los disponibles.\r Libros por un autor (usando .filter).\r Datos en arrays:\r Los datos deben almacenarse en arrays\r Se deben poder imprimir en consola con console.log().\r **Cómo ejecutarlo.**\r En la consola integrada \r copiar el siguiente comando-----> node .\\main.js\r # Integrantes:\r **Mauricio Linares**  -----  *Id* : 000593809\r **Jhon Florez**   -----  *Id* : 000593392\r **Federico Sanin**  ----  *Id* : 000154088",
+  "main": "main.js",
+  "type": "module",  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mauriciolinares4315/Biblioteca-el-progreso-taller-4.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mauriciolinares4315/Biblioteca-el-progreso-taller-4/issues"
+  },
+  "homepage": "https://github.com/mauriciolinares4315/Biblioteca-el-progreso-taller-4#readme"
+}
