@@ -23,7 +23,7 @@ Los datos deben almacenarse en arrays
 Se deben poder imprimir en consola con console.log().
 **Cómo ejecutarlo.**
 En la consola integrada 
-copiar el siguiente comando----- node .main.js
+copiar el siguiente comando-----> node .\main.js
 # Integrantes:
 **Mauricio Linares**  -----  *Id* : 000593809
 **Jhon Florez**   -----  *Id* : 000593392
