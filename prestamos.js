@@ -14,7 +14,7 @@ let libros = [
 // Prestar un libro: 
 
 
-function prestar_libro (titulo){
+ export function prestar_libro (titulo){
 let libro = libros.find(x => x.titulo === titulo)
 if (!libro){
     console.log("Libro no encontrado")
@@ -33,7 +33,7 @@ console.log(libros)
 
 
 // Devolver un libro: 
-function devolver_un_libro(titulo){
+ export function devolver_un_libro(titulo){
 
 let devolver_libro = libros.find(y => y.titulo === titulo)
 
@@ -51,14 +51,14 @@ console.log(libros)
 
 
 //Listar libros
-function listar_lista_libros (libros){
+ export function listar_lista_libros (libros){
     return console.log(libros)
 }
 listar_lista_libros(libros)
 
 //listar solo disponibles
 
-function mostrarLibrosDisponibles(libros) {
+ export function mostrarLibrosDisponibles(libros) {
     let disponibles = libros.filter(z => z.estado === "disponible");
 
     disponibles.forEach(libro => {
@@ -71,7 +71,7 @@ mostrarLibrosDisponibles(libros)
 
 //Listar libros por autor
 
-function listar_libros_autor (autor){
+ export function listar_libros_autor (autor){
     let filtro_autor = libros.filter(l => l.autor === autor)
     return console.log (filtro_autor)
 }

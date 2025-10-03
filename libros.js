@@ -20,6 +20,6 @@ libros.push(nuevo_libro)
 }
 
 crear_libros("El hobbit", "JRR TOLKIEN", "Disponible")
-console.log(libros)
+
 
 
